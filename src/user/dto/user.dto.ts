@@ -1,14 +1,14 @@
-// import { IsInt, IsNotEmpty, IsString } from 'class-validator';
+import { IsInt, IsNotEmpty, IsString } from 'class-validator';
 
-// export class UserDto {
-//   @IsInt()
-//   id: string;
+export class UserDto {
+  @IsInt()
+  id: string;
 
-//   @IsString()
-//   @IsNotEmpty()
-//   name: string;
+  @IsString()
+  @IsNotEmpty()
+  name: string;
 
-//   @IsInt()
-//   @IsNotEmpty()
-//   age: number;
-// }
+  @IsInt()
+  @IsNotEmpty()
+  age: number;
+}
